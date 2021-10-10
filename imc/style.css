@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100%;
+}
+.corpo-calculadora{
+    margin-top: 5%;
+    font-size: 30px;
+    color: #8A2BE2;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.pg-calculadora {
+    display: flex;
+    justify-content: center;
+
+}
+.img-layout img{
+    margin-left: -300px;
+}
+.calculadora-imc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 300px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 1em #A9A9A9;
+    min-height: 200px;
+}
+.campos-imc{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.campos-imc input{
+    border: 1px solid #483D8B;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.campos-imc input::placeholder{
+    text-align: center;
+    color: #483D8B;
+    font-weight: lighter;
+    font-size: 14px;
+
+}
+.campos-imc button{
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #6A5ACD;
+    color: #483D8B;
+    font-weight: bold;
+}
+.campos-imc #calcular:hover{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    background-color: #483D8B;
+}
+.campos-imc #resultado-imc{
+    font-size: 25px;
+    color: #8A2BE2;
+}
+.campos-imc #grau-obesidade{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #8A2BE2;
+}
+.grau-obesidade-margin{
+    margin: 0;
+}
+
+/* RESPONSIVIDADE MOBILE */
+@media screen and (max-width: 1120px){
+	.titulo{
+    text-align: center;
+    margin-bottom: 3%;
+	font-size: 21px;
+}
+.img-layout img{
+    display: none;
+	margin-left: 0;
+}
+.calculadora-imc{
+	padding: 15px;
+}
+.corpo-calculadora{
+    margin-top: 5%;
+    font-size: 30px;
+    color: #8A2BE2;
+	text-align: center;
+}
+.campos-imc #resultado-imc{
+    font-size: 17px;
+    color: #8A2BE2;
+}
+.campos-imc #grau-obesidade{
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #8A2BE2;
+}
+}
