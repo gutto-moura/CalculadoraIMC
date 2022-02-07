@@ -1,2 +1,2 @@
-# CalculadoraIMC
+# Calculadora IMC
 Calcule seu IMC
